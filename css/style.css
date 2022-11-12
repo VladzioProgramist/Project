@@ -34,6 +34,12 @@ body {
     text-decoration: none;
 }
 
+.header_link:hover {
+    color: #6F2DFF;
+    font-size: 18px;
+    transition: 1s;
+}
+
 .button {
     height: 40px;
     width: 157px;
@@ -47,8 +53,13 @@ body {
 
 .button:hover {
     background-color: #0011ff;
-    transition: 2s;
+    transition: 1s;
     cursor: pointer;
+    font-size: 16px;
+}
+
+.button:active {
+    background-color: #F6BED9;
 }
 
 .main {
@@ -61,6 +72,12 @@ body {
     font-size: 54px;
     line-height: 61px;
     max-width: 470px;
+}
+
+.main_title:hover {
+    font-size: 58px;
+    color: #6F2DFF;
+    transition: 1s;
 }
 
 .main_title-violate {
@@ -114,6 +131,12 @@ body {
     max-width: 415px;
 }
 
+.grow_title:hover {
+    color: #6F2CFF;
+    font-size: 42px;
+    transition: 1s;
+}
+
 .grow_flex {
     display: flex;
     gap: 34px;
@@ -157,20 +180,23 @@ body {
     margin-bottom: 79px;
 }
 
+.commerce_title:hover {
+    transition: 1s;
+    color: #6F2CFF;
+    font-size: 45px;
+}
+
 .commerce_pretitle {
     font-weight: 700;
     font-size: 19px;
     line-height: 23px;
-    margin-top: 42px;
-    margin-bottom: 16px;
+    margin: 42px 0 16px;
 }
 
 .commerce_text {
     font-size: 15px;
     line-height: 22px;
-    margin-right: 149px;
     max-width: 316px;
-    margin: 0 auto;
 }
 
 .footer {
@@ -191,4 +217,10 @@ body {
     line-height: 21px;
     color: #fff;
     text-decoration: none;
+}
+
+.footer_link:hover {
+    color: #ff0000;
+    font-size: 18px;
+    transition: 1s;
 }
